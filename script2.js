@@ -4,4 +4,4 @@ let b = prompt('podaj liczbę b');
 let multiply = (x, y) => { return (a * (b || 1))};
 
 
-console.log(multiply());
+console.log(multiply(a, b));
